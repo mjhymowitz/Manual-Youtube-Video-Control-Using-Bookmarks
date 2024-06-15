@@ -1,6 +1,8 @@
 # Manual Youtube Video Control Bookmark
 ## Description
-Using bookmarks to execute javascript scripts to control youtube videos  (Doesn't work on Youtube shorts)
+Using bookmarks to execute javascript scripts to control youtube videos
+Works on YouTube video and ad's
+Doesn't work on Youtube shorts
 
 Created: Jun 15, 2024
 
