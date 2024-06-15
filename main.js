@@ -28,7 +28,7 @@ javascript:(
 // Go to timestamp
 javascript:(
   function(){
-    var timestamp = prompt("Go to timestamp (seconds)?");
+    var timestamp = prompt("Go to timestame (seconds)?");
     var video = document.getElementsByClassName("html5-main-video")[0];
     if (timestamp!==null){
       video.currentTime = timestamp;
