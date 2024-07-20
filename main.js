@@ -1,7 +1,7 @@
 // Go back 5 seconds
 javascript:(
   function(){
-    var video = document.getElementsByClassName("html5-main-video");
+    var video = document.querySelectorAll('video');
     if(video == null){
       return nil;
     }
@@ -15,7 +15,7 @@ javascript:(
 // Go forward 5 seconds
 javascript:(
   function(){
-    var video = document.getElementsByClassName("html5-main-video");
+    var video = document.querySelectorAll('video');
     if(video == null){
       return nil;
     }
@@ -28,7 +28,7 @@ javascript:(
 // Speedup video speed by user input
 javascript:(
   function(){
-    var video = document.getElementsByClassName("html5-main-video");
+    var video = document.querySelectorAll('video');
     if(video == null){
       return nil;
     }
@@ -47,7 +47,7 @@ javascript:(
 // Go to timestamp
 javascript:(
   function(){
-    var video = document.getElementsByClassName("html5-main-video");
+    var video = document.querySelectorAll('video');
     if(video == null){
       return nil;
     }
