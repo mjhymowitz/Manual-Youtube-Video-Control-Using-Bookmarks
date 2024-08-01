@@ -62,3 +62,10 @@ javascript:(
     });
   }
 )();
+
+// Remove recommended video Element
+javascript:(
+  function(){
+    document.querySelector(".ytp-ce-video").remove();
+  }
+)();
