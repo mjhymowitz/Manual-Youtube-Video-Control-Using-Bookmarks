@@ -69,3 +69,10 @@ javascript:(
     document.querySelector(".ytp-ce-video").remove();
   }
 )();
+
+// Remove all video elements
+javascript:(
+  function(){
+    document.querySelectorAll(".ytp-ce-element").forEach( element => element.remove());
+  }
+)();
